@@ -15,7 +15,7 @@ os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_API_KEY"] = "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"
 os.environ["NVIDIA_API_KEY"] = "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" 
 
-model = ChatNVIDIA(model="meta/llama3-70b-instruct")
+model = ChatNVIDIA(model="meta/llama-3.1-405b-instruct")
 
 # Database connection
 database = "northwind.db"
